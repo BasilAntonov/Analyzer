@@ -1,0 +1,9 @@
+{
+	"name": "Analyzer",
+	"version": "1.0.0",
+	"author": "Antonov V.A.",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js"
+	}
+}
