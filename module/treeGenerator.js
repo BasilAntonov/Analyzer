@@ -70,6 +70,8 @@ function exp(tokens) {
                     result = result.concat(answer[2 * i + 1], answer[2 * i]);
                 }
                 return result.concat(answer[answer.length - 1]);
+            case 'Number':
+                throw 'Expected token operator, but got TokenType.Tok_num'
         }
     }
 }

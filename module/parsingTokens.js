@@ -145,7 +145,7 @@ export function parsingTokens(input) {
             case 4:
                 tokens.push({
                     type: 'Number',
-                    value: token.slice(0, -1)
+                    value: token.slice(0, -2)
                 });
                 tokens.push({
                     type: 'Identifier',
