@@ -1,5 +1,7 @@
 import { parsingTokens, tokensOut } from './module/parsingTokens.js';
-import { treeGenerator, interpretErexpression, outTree } from './module/treeGenerator.js'
+// import { treeGenerator, interpretErexpression, outTree } from './module/treeGenerator.js'
+import { interpretErexpression, outTree } from './module/treeGenerator.js';
+import { treeGenerator } from './module/parser.js';
 import * as readline from 'node:readline';
 import { stdin as input, stdout as output } from 'node:process';
 
